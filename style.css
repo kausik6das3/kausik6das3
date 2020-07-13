@@ -2,17 +2,20 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 /*  	margin: 50px;*/
-	color: yellow;
-	background-color:black;
+	color: #ebdbb2;
+	background-color:#1d2021;
   
 }
 
 .header {
 	text-align: center;
-	padding: 80px;
-  	background: #333300;
-  	color: white;
+	margin: 10px 0 20px;
+	font-size: 4.2em;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	word-spacing: .2em;
 }
+	
 
 /* Increase the font size of the heading */
 .header h1 {
@@ -76,20 +79,49 @@ body {
   }
 
 }
-.content{
-	text-align: justify;
-  	text-justify: inter-word;
-	max-width: 1050px;
+.content, .cv{
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 1050px;
+}
+.content p{
+	text-align: justify;
+  	text-justify: inter-word;
 }
 
 
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+}
 
+.left {
+  width: 20%;
+}
+.right {
+  width: 80%;
+}
+
+/*.left, .right p{
+	text-align: justify;
+  	text-justify: inter-word;
+}*/
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row:hover{
+	background-color: #181a1b
+}
+	
 /*___________________________For Slideshow_______________________*/
 * {box-sizing:border-box}
 .show{
-/*	max-width: 500px;*/
 	max-height:350px;
 	margin-top: auto;
 	margin-bottom:auto;
@@ -106,7 +138,7 @@ body {
   	max-width: 1000px;
   	position: relative;
   	margin: auto;
-  	background-color: black;
+  	background-color: #1d2021;;
 }
 
 /* Hide the images by default */
