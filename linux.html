@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kausik Das</title>
+	<meta charest="utf-8">
+	<meta name="viewport" content="with=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="home" class="header">
+	<h1>Kausik Das</h1>
+</div>
+<!--______________Navigation__Bar_________-->
+<div class="navbar" id="myNavbar">
+  	<a href="index.html">Home</a>
+  	<a href="linux.html" class="active">Linux</a>
+   	<a href="photoalbum.html">Photoalbum</a>
+	<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<br>
+
+<div class="content">
+<h2>Linux<h2>
+</div>
+</body>
+</html>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
+
+
