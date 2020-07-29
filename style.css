@@ -94,6 +94,36 @@ body {
   	text-justify: inter-word;
 }
 
+.link {
+	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+	font-size: 17px;
+}
+.link:hover {
+  background-color: #ddd;
+  color: black;
+}
+.link:visited {
+  color: #4CAF50;
+  background-color: transparent;
+  text-decoration: none;
+}
+.link:active {
+	background-color: #4CAF50;
+  	color: white;
+}
+
+
+.navbar {
+  	overflow: hidden;
+	text-color: 
+	
+}
+
 
 /* Create two unequal columns that floats next to each other */
 .column {
