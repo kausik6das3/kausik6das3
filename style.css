@@ -107,7 +107,7 @@ body {
   background-color: #ddd;
   color: black;
 }
-.link:visited {
+/*.link:visited {
   color: #4CAF50;
   background-color: transparent;
   text-decoration: none;
@@ -115,7 +115,7 @@ body {
 .link:active {
 	background-color: #4CAF50;
   	color: white;
-}
+}*/
 
 
 .navbar {
